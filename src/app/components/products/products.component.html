@@ -1,0 +1,25 @@
+<div class="products">
+  <h2>Products List</h2>
+  <ul>
+    @for (product of products; track $index) {
+    <!-- <li>{{ product.ProductName }} - {{ product.AvailablePieces }} in stock</li> -->
+    <li>
+      {{ product.ProductName }} - @if (editingProductId !== product.ProductId) {
+      {{ product.AvailablePieces }} in stock } @if (editingProductId ===
+      product.ProductId) {
+      <input type="number" [(ngModel)]="product.AvailablePieces" />
+      }
+
+      <button
+        (click)="
+          editingProductId === product.ProductId
+            ? updateProductQuantity(product.ProductId, product.AvailablePieces)
+            : toggleEdit(product.ProductId)
+        "
+      >
+        {{ editingProductId === product.ProductId ? "Update" : "Edit" }}
+      </button>
+    </li>
+    }
+  </ul>
+</div>
