@@ -2,11 +2,12 @@ import { ProductService } from '../../core/services/product.service';
 import { Component } from '@angular/core';
 import { Product } from '../../core/models/product.model';
 import { FormsModule } from '@angular/forms';
+import { CommonModule } from '@angular/common';
 
 @Component({
   selector: 'app-products',
   standalone: true,
-  imports: [FormsModule],
+  imports: [FormsModule, CommonModule],
   templateUrl: './products.component.html',
   styleUrl: './products.component.scss',
 })
@@ -18,6 +19,12 @@ export class ProductsComponent {
 
   ngOnInit(): void {
     this.productService.getProduct().subscribe((data: Product[]) => {
+      this.loadProducts();
+    });
+  }
+
+  private loadProducts(): void {
+    this.productService.getProduct().subscribe((data: Product[]) => {
       this.products = data;
     });
   }
@@ -27,7 +34,7 @@ export class ProductsComponent {
       next: () => {
         (updatedProduct: Product) => {
           const index = this.products.findIndex(
-            (p) => p.ProductId === updatedProduct.ProductId
+            (p) => p.id === updatedProduct.id
           );
           if (index !== -1) {
             this.products[index].AvailablePieces = updatedProduct.AvailablePieces;
@@ -39,7 +46,7 @@ export class ProductsComponent {
         console.error('Failed to update product quantity', error);
       },
       complete: () => {
-        console.log('complete');
+        this.toggleEdit(productId);
       },
     });
   }
@@ -50,5 +57,9 @@ export class ProductsComponent {
     } else {
       this.editingProductId = productId;
     }
+  }
+
+  highlightLowStock(product: Product): boolean {
+    return product.AvailablePieces < 5;
   }
 }

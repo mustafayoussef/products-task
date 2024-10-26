@@ -1,0 +1,8 @@
+<div class="orders">
+  <h2>Orders List</h2>
+  <ul>
+    @for (order of orders; track $index) {
+      <li>Order #{{ order.OrderId }} - Total: {{ order.totalPrice }} - Payment Method: {{ order.PaymentType }}</li>
+    }
+  </ul>
+</div>

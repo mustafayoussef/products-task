@@ -3,21 +3,21 @@
   <ul>
     @for (product of products; track $index) {
     <!-- <li>{{ product.ProductName }} - {{ product.AvailablePieces }} in stock</li> -->
-    <li>
-      {{ product.ProductName }} - @if (editingProductId !== product.ProductId) {
+    <li [ngClass]="{'low-stock': highlightLowStock(product)}">
+      {{ product.ProductName }} - @if (editingProductId !== product.id) {
       {{ product.AvailablePieces }} in stock } @if (editingProductId ===
-      product.ProductId) {
+      product.id) {
       <input type="number" [(ngModel)]="product.AvailablePieces" />
       }
 
       <button
         (click)="
-          editingProductId === product.ProductId
-            ? updateProductQuantity(product.ProductId, product.AvailablePieces)
-            : toggleEdit(product.ProductId)
+          editingProductId === product.id
+            ? updateProductQuantity(product.id, product.AvailablePieces)
+            : toggleEdit(product.id)
         "
       >
-        {{ editingProductId === product.ProductId ? "Update" : "Edit" }}
+        {{ editingProductId === product.id ? "Update" : "Edit" }}
       </button>
     </li>
     }
