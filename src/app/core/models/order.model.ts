@@ -1,5 +1,5 @@
 export interface Order {
-  OrderId: number;
+  id: number;
   OrderDate: string;
   UserId: string;
   Products: SingleProduct[];
@@ -10,4 +10,6 @@ export interface Order {
 export interface SingleProduct {
   ProductId: number;
   Quantity: number;
+  ProductName: string;
+  ProductImg: string;
 }

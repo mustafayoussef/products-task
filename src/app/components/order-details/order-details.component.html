@@ -1,0 +1,18 @@
+<h1>Order Details</h1>
+@if (user) {
+<p>Customer Name: {{ user.Name }}</p>
+}
+@if (order) {
+
+<p>Payment Method: {{ order.PaymentType }}</p>
+<h3>Products:</h3>
+<ul>
+  @for (product of order.Products; track $index) {
+  <li>
+    <img [src]="product.ProductImg" alt="{{ product.ProductName }}" width="50">
+    <p>Product Name: {{ product.ProductName }}</p>
+    Product ID: {{ product.ProductId }} - Quantity: {{ product.Quantity }}
+  </li>
+  }
+</ul>
+}

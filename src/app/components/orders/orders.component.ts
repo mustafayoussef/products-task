@@ -3,11 +3,12 @@ import { Order } from '../../core/models/order.model';
 import { OrderService } from '../../core/services/order.service';
 import { Product } from '../../core/models/product.model';
 import { ProductService } from '../../core/services/product.service';
+import { RouterLink } from '@angular/router';
 
 @Component({
   selector: 'app-orders',
   standalone: true,
-  imports: [],
+  imports: [RouterLink],
   templateUrl: './orders.component.html',
   styleUrl: './orders.component.scss',
 })

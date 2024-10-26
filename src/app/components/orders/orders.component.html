@@ -2,7 +2,8 @@
   <h2>Orders List</h2>
   <ul>
     @for (order of orders; track $index) {
-      <li>Order #{{ order.OrderId }} - Total: {{ order.totalPrice }} - Payment Method: {{ order.PaymentType }}</li>
+      <li>Order #{{ order.id }} - Total: {{ order.totalPrice }} - Payment Method: {{ order.PaymentType }}</li>
+      <a [routerLink]="['/order-details', order.id]">View Details</a>
     }
   </ul>
 </div>
