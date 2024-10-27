@@ -1,0 +1,66 @@
+<h2>Add New Order</h2>
+
+@if (users()) {
+<p-dropdown
+  [options]="users()"
+  [(ngModel)]="selectedUser"
+  optionLabel="name"
+  placeholder="Select a User"
+  class="users"
+/>
+}
+
+<p-dropdown
+  [options]="payments()"
+  [(ngModel)]="paymentType"
+  placeholder="Select a payment Type"
+/>
+
+<div class="products">
+  <div class="products_table">
+    <p-table
+      [(selection)]="selectedProducts"
+      [value]="products()"
+      [tableStyle]="{ 'min-width': '50rem' }"
+    >
+      <ng-template pTemplate="header" let-columns>
+        <tr>
+          <th style="width: 4rem"><p-tableHeaderCheckbox /></th>
+          <th>Product ID</th>
+          <th>Product Name</th>
+          <th>Quantity</th>
+          <th>Total</th>
+        </tr>
+      </ng-template>
+      <ng-template pTemplate="body" let-product let-columns="columns">
+        <tr>
+          <td>
+            <p-tableCheckbox
+              [value]="product"
+            />
+          </td>
+          <td>
+            {{ product.id }}
+          </td>
+          <td>
+            {{ product.ProductName }}
+          </td>
+          <td>
+            <p-inputNumber
+              class="quantity"
+              [(ngModel)]="productQuantities()[product.id]"
+              min="1"
+              [max]="product.AvailablePieces"
+              inputId="withoutgrouping"
+              [useGrouping]="false"
+              (ngModelChange)="onQuantityChange(product.id, $event)"
+            />
+          </td>
+          <td></td>
+        </tr>
+      </ng-template>
+    </p-table>
+  </div>
+</div>
+<p-button class="create-order-btn" (click)="addOrder()" label="Create Order" />
+

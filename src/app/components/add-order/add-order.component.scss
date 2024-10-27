@@ -1,0 +1,14 @@
+.create-order-btn {
+  display: block;
+  margin: 3rem 0;
+}
+
+.users {
+  margin-right: 5rem;
+}
+
+.products {
+  &_table {
+    margin-top: 3rem;
+  }
+}

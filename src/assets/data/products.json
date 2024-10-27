@@ -4,7 +4,7 @@
       "id": "123",
       "ProductName": "Product 1",
       "ProductPrice": 123.5,
-      "AvailablePieces": 33,
+      "AvailablePieces": 22,
       "ProductImg": "https://www.decolore.net/wp-content/uploads/2017/04/product-mock-up-set-2.jpg"
     },
     {
@@ -18,7 +18,7 @@
       "id": "125",
       "ProductName": "Product 3",
       "ProductPrice": 250.5,
-      "AvailablePieces": 10,
+      "AvailablePieces": 6,
       "ProductImg": "https://www.decolore.net/wp-content/uploads/2017/04/product-mock-up-set-2.jpg"
     },
     {
@@ -95,35 +95,35 @@
       "id": "136",
       "ProductName": "Product 14",
       "ProductPrice": 200,
-      "AvailablePieces": 2,
+      "AvailablePieces": 5,
       "ProductImg": "https://www.decolore.net/wp-content/uploads/2017/04/product-mock-up-set-2.jpg"
     },
     {
       "id": "137",
       "ProductName": "Product 15",
       "ProductPrice": 30,
-      "AvailablePieces": 1,
+      "AvailablePieces": 5,
       "ProductImg": "https://cdn.shopify.com/s/files/1/1038/1798/products/Long-Tin-Can-Mock-Up-1-Free-by-MassDream_1024x1024.jpg?v=1529072551"
     },
     {
       "id": "138",
       "ProductName": "Product 16",
       "ProductPrice": 10,
-      "AvailablePieces": 1,
+      "AvailablePieces": 20,
       "ProductImg": "https://www.decolore.net/wp-content/uploads/2017/04/product-mock-up-set-2.jpg"
     },
     {
       "id": "139",
       "ProductName": "Product 17",
       "ProductPrice": 30.5,
-      "AvailablePieces": 2,
+      "AvailablePieces": 1,
       "ProductImg": "https://cdn.shopify.com/s/files/1/1038/1798/products/Long-Tin-Can-Mock-Up-1-Free-by-MassDream_1024x1024.jpg?v=1529072551"
     },
     {
       "id": "140",
       "ProductName": "Product 18",
       "ProductPrice": 63.5,
-      "AvailablePieces": 3,
+      "AvailablePieces": 6,
       "ProductImg": "https://www.decolore.net/wp-content/uploads/2017/04/product-mock-up-set-2.jpg"
     },
     {
@@ -143,7 +143,7 @@
   ],
   "orders": [
     {
-      "id": 1233,
+      "id": "1233",
       "OrderDate": "Wed Sep 18 2019 12:45:37 GMT+0200(Eastern European Standard Time)",
       "UserId": "8475-2345-2312",
       "Products": [
@@ -163,7 +163,7 @@
       "PaymentType": "online"
     },
     {
-      "id": 1234,
+      "id": "1234",
       "OrderDate": "Wed Sep 18 2019 12:45:37 GMT+0200(Eastern European Standard Time)",
       "UserId": "1223-1223-1231",
       "Products": [
@@ -183,7 +183,7 @@
       "PaymentType": "Online"
     },
     {
-      "id": 1235,
+      "id": "1235",
       "OrderDate": "Wed Sep 18 2019 12:45:37 GMT+0200(Eastern European Standard Time)",
       "UserId": "9843-2345-2345",
       "Products": [
@@ -199,7 +199,7 @@
       "PaymentType": "Cash"
     },
     {
-      "id": 1236,
+      "id": "1236",
       "OrderDate": "Thu Jul 19 2019 12:45:37 GMT+0200(Eastern European Standard Time)",
       "UserId": "2343-1233-4323",
       "Products": [
@@ -215,7 +215,7 @@
       "PaymentType": "Online"
     },
     {
-      "id": 1237,
+      "id": "1237",
       "OrderDate": "Wed Jul 19 2019 12:45:37 GMT+0200(Eastern European Standard Time)",
       "UserId": "2343-1233-4323",
       "Products": [
@@ -227,7 +227,7 @@
       "PaymentType": "Online"
     },
     {
-      "id": 1238,
+      "id": "1238",
       "OrderDate": "Thu Jul 20 2019 12:45:37 GMT+0200(Eastern European Standard Time)",
       "UserId": "3123-3242-1231",
       "Products": [
@@ -243,7 +243,7 @@
       "PaymentType": "Online"
     },
     {
-      "id": 1239,
+      "id": "1239",
       "OrderDate": "Fri Jul 20 2019 12:55:37 GMT+0200(Eastern European Standard Time)",
       "UserId": "1231-1244-1233",
       "Products": [
@@ -259,7 +259,7 @@
       "PaymentType": "Online"
     },
     {
-      "id": 1240,
+      "id": "1240",
       "OrderDate": "Fri Jul 20 2019 01:55:37 GMT+0200(Eastern European Standard Time)",
       "UserId": "1223-1223-1231",
       "Products": [
@@ -275,7 +275,7 @@
       "PaymentType": "online"
     },
     {
-      "id": 1241,
+      "id": "1241",
       "OrderDate": "Fri Jul 20 2019 03:55:37 GMT+0200(Eastern European Standard Time)",
       "UserId": "1231-1244-1233",
       "Products": [
@@ -295,7 +295,7 @@
       "PaymentType": "Cash"
     },
     {
-      "id": 1242,
+      "id": "1242",
       "OrderDate": "Fri Jul 20 2019 06:55:37 GMT+0200(Eastern European Standard Time)",
       "UserId": "1231-1244-1233",
       "Products": [
@@ -311,7 +311,7 @@
       "PaymentType": "Cash"
     },
     {
-      "id": 1243,
+      "id": "1243",
       "OrderDate": "Fri Jul 20 2019 09:55:37 GMT+0200(Eastern European Standard Time)",
       "UserId": "1231-1244-1233",
       "Products": [
@@ -327,7 +327,7 @@
       "PaymentType": "Cash"
     },
     {
-      "id": 1244,
+      "id": "1244",
       "OrderDate": "Fri Jul 20 2019 11:30:37 GMT+0200(Eastern European Standard Time)",
       "UserId": "1231-1244-1233",
       "Products": [
@@ -343,7 +343,7 @@
       "PaymentType": "Cash"
     },
     {
-      "id": 1245,
+      "id": "1245",
       "OrderDate": "Fri Jul 20 2019 00:55:37 GMT+0200(Eastern European Standard Time)",
       "UserId": "1231-1244-1233",
       "Products": [
@@ -359,7 +359,7 @@
       "PaymentType": "online"
     },
     {
-      "id": 1246,
+      "id": "1246",
       "OrderDate": "Fri Jul 20 2019 14:55:37 GMT+0200(Eastern European Standard Time)",
       "UserId": "1231-1244-1233",
       "Products": [
@@ -375,7 +375,7 @@
       "PaymentType": "Cash"
     },
     {
-      "id": 1247,
+      "id": "1247",
       "OrderDate": "Fri Jul 20 2019 12:55:37 GMT+0200(Eastern European Standard Time)",
       "UserId": "1231-1244-1233",
       "Products": [
@@ -391,7 +391,7 @@
       "PaymentType": "Cash"
     },
     {
-      "id": 1248,
+      "id": "1248",
       "OrderDate": "Fri Jul 20 2019 16:55:37 GMT+0200(Eastern European Standard Time)",
       "UserId": "1231-1244-1233",
       "Products": [
@@ -407,7 +407,7 @@
       "PaymentType": "Cash"
     },
     {
-      "id": 1249,
+      "id": "1249",
       "OrderDate": "Fri Jul 20 2019 18:55:37 GMT+0200(Eastern European Standard Time)",
       "UserId": "1231-1244-1233",
       "Products": [
@@ -423,7 +423,7 @@
       "PaymentType": "online"
     },
     {
-      "id": 1250,
+      "id": "1250",
       "OrderDate": "Fri Jul 20 2019 22:55:37 GMT+0200(Eastern European Standard Time)",
       "UserId": "1231-1244-1233",
       "Products": [
@@ -439,7 +439,7 @@
       "PaymentType": "Cash"
     },
     {
-      "id": 1251,
+      "id": "1251",
       "OrderDate": "Fri Jul 20 2019 23:50:37 GMT+0200(Eastern European Standard Time)",
       "UserId": "1231-1244-1233",
       "Products": [
@@ -455,7 +455,7 @@
       "PaymentType": "Cash"
     },
     {
-      "id": 1252,
+      "id": "1252",
       "OrderDate": "Sun Jul 22 2019 03:00:00 GMT+0200(Eastern European Standard Time)",
       "UserId": "5432-3425-1234",
       "Products": [
@@ -471,7 +471,7 @@
       "PaymentType": "Cash"
     },
     {
-      "id": 1253,
+      "id": "1253",
       "OrderDate": "Sun Jul 22 201901:55:37 GMT+0200(Eastern European Standard Time)",
       "UserId": "5432-3425-1234",
       "Products": [
@@ -487,7 +487,7 @@
       "PaymentType": "Cash"
     },
     {
-      "id": 1254,
+      "id": "1254",
       "OrderDate": "Fri Jul 20 2019 12:55:37 GMT+0200(Eastern European Standard Time)",
       "UserId": "5432-3425-1234",
       "Products": [
@@ -503,7 +503,7 @@
       "PaymentType": "online"
     },
     {
-      "id": 1255,
+      "id": "1255",
       "OrderDate": "Fri Jul 20 2019 01:05:37 GMT+0200(Eastern European Standard Time)",
       "UserId": "5432-3425-1234",
       "Products": [
@@ -519,7 +519,7 @@
       "PaymentType": "Cash"
     },
     {
-      "id": 1256,
+      "id": "1256",
       "OrderDate": "Fri Jul 20 2019 14:50:37 GMT+0200(Eastern European Standard Time)",
       "UserId": "5432-3425-1234",
       "Products": [
@@ -535,7 +535,7 @@
       "PaymentType": "Cash"
     },
     {
-      "id": 1257,
+      "id": "1257",
       "OrderDate": "Fri Jul 20 2019 14:50:37 GMT+0200(Eastern European Standard Time)",
       "UserId": "5432-3425-1234",
       "Products": [
@@ -551,7 +551,7 @@
       "PaymentType": "Cash"
     },
     {
-      "id": 1258,
+      "id": "1258",
       "OrderDate": "Fri Jul 20 2019 14:50:37 GMT+0200(Eastern European Standard Time)",
       "UserId": "5432-3425-1234",
       "Products": [
@@ -567,7 +567,7 @@
       "PaymentType": "online"
     },
     {
-      "id": 1259,
+      "id": "1259",
       "OrderDate": "Fri Jul 20 2019 14:50:37 GMT+0200(Eastern European Standard Time)",
       "UserId": "5432-3425-1234",
       "Products": [
@@ -583,7 +583,7 @@
       "PaymentType": "Cash"
     },
     {
-      "id": 1260,
+      "id": "1260",
       "OrderDate": "Fri Jul 20 2019 22:30:37 GMT+0200(Eastern European Standard Time)",
       "UserId": "5432-3425-1234",
       "Products": [
@@ -599,7 +599,7 @@
       "PaymentType": "online"
     },
     {
-      "id": 1261,
+      "id": "1261",
       "OrderDate": "Fri Jul 20 2019 22:30:37 GMT+0200(Eastern European Standard Time)",
       "UserId": "5432-3425-1234",
       "Products": [
@@ -615,7 +615,7 @@
       "PaymentType": "online"
     },
     {
-      "id": 1262,
+      "id": "1262",
       "OrderDate": "Fri Jul 20 2019 22:30:37 GMT+0200(Eastern European Standard Time)",
       "UserId": "5432-3425-1234",
       "Products": [
@@ -631,7 +631,7 @@
       "PaymentType": "online"
     },
     {
-      "id": 1263,
+      "id": "1263",
       "OrderDate": "Fri Jul 20 2019 22:30:37 GMT+0200(Eastern European Standard Time)",
       "UserId": "2343-1233-4323",
       "Products": [
@@ -647,7 +647,7 @@
       "PaymentType": "online"
     },
     {
-      "id": 1264,
+      "id": "1264",
       "OrderDate": "Fri Jul 20 2019 22:30:37 GMT+0200(Eastern European Standard Time)",
       "UserId": "2343-1233-4323",
       "Products": [
@@ -663,7 +663,7 @@
       "PaymentType": "Cash"
     },
     {
-      "id": 1265,
+      "id": "1265",
       "OrderDate": "Fri Jul 20 2019 22:30:37 GMT+0200(Eastern European Standard Time)",
       "UserId": "2343-1233-4323",
       "Products": [
@@ -679,7 +679,7 @@
       "PaymentType": "Cash"
     },
     {
-      "id": 1266,
+      "id": "1266",
       "OrderDate": "Fri Jul 20 2019 22:30:37 GMT+0200(Eastern European Standard Time)",
       "UserId": "2343-1233-4323",
       "Products": [
@@ -695,7 +695,7 @@
       "PaymentType": "Cash"
     },
     {
-      "id": 1267,
+      "id": "1267",
       "OrderDate": "Fri Jul 20 2019 22:30:37 GMT+0200(Eastern European Standard Time)",
       "UserId": "2343-1233-4323",
       "Products": [
@@ -711,7 +711,7 @@
       "PaymentType": "online"
     },
     {
-      "id": 1268,
+      "id": "1268",
       "OrderDate": "Fri Jul 20 2019 22:30:37 GMT+0200(Eastern European Standard Time)",
       "UserId": "2343-1233-4323",
       "Products": [
@@ -727,7 +727,7 @@
       "PaymentType": "Cash"
     },
     {
-      "id": 1269,
+      "id": "1269",
       "OrderDate": "Mon Jul 23 201922:30:37 GMT+0200(Eastern European Standard Time)",
       "UserId": "2343-1233-4323",
       "Products": [
@@ -743,7 +743,7 @@
       "PaymentType": "Cash"
     },
     {
-      "id": 1270,
+      "id": "1270",
       "OrderDate": "Mon Jul 23 201922:30:37 GMT+0200(Eastern European Standard Time)",
       "UserId": "2343-1233-4323",
       "Products": [
@@ -759,7 +759,7 @@
       "PaymentType": "Cash"
     },
     {
-      "id": 1271,
+      "id": "1271",
       "OrderDate": "Mon Jul 23 201906:30:37 GMT+0200(Eastern European Standard Time)",
       "UserId": "2343-1233-4323",
       "Products": [
@@ -775,7 +775,7 @@
       "PaymentType": "Cash"
     },
     {
-      "id": 1272,
+      "id": "1272",
       "OrderDate": "Mon Jul 23 201906:30:37 GMT+0200(Eastern European Standard Time)",
       "UserId": "2343-1233-4323",
       "Products": [
@@ -791,7 +791,7 @@
       "PaymentType": "Cash"
     },
     {
-      "id": 1273,
+      "id": "1273",
       "OrderDate": "Mon Jul 23 201906:30:37 GMT+0200(Eastern European Standard Time)",
       "UserId": "2343-1233-4323",
       "Products": [
@@ -807,7 +807,7 @@
       "PaymentType": "online"
     },
     {
-      "id": 1274,
+      "id": "1274",
       "OrderDate": "Mon Jul 23 201906:30:37 GMT+0200(Eastern European Standard Time)",
       "UserId": "8573-2903-23443",
       "Products": [
@@ -823,7 +823,7 @@
       "PaymentType": "Cash"
     },
     {
-      "id": 1275,
+      "id": "1275",
       "OrderDate": "Mon Jul 23 201906:30:37 GMT+0200(Eastern European Standard Time)",
       "UserId": "8573-2903-23443",
       "Products": [
@@ -839,7 +839,7 @@
       "PaymentType": "Cash"
     },
     {
-      "id": 1276,
+      "id": "1276",
       "OrderDate": "Mon Jul 23 201906:30:37 GMT+0200(Eastern European Standard Time)",
       "UserId": "8573-2903-23443",
       "Products": [
@@ -855,7 +855,7 @@
       "PaymentType": "Cash"
     },
     {
-      "id": 1277,
+      "id": "1277",
       "OrderDate": "Mon Jul 23 201906:30:37 GMT+0200(Eastern European Standard Time)",
       "UserId": "8573-2903-23443",
       "Products": [
@@ -871,7 +871,7 @@
       "PaymentType": "Cash"
     },
     {
-      "id": 1278,
+      "id": "1278",
       "OrderDate": "Mon Jul 23 201906:30:37 GMT+0200(Eastern European Standard Time)",
       "UserId": "8573-2903-23443",
       "Products": [
@@ -887,7 +887,7 @@
       "PaymentType": "Cash"
     },
     {
-      "id": 1279,
+      "id": "1279",
       "OrderDate": "Mon Jul 23 201906:30:37 GMT+0200(Eastern European Standard Time)",
       "UserId": "8573-2903-23443",
       "Products": [
@@ -903,7 +903,7 @@
       "PaymentType": "online"
     },
     {
-      "id": 1280,
+      "id": "1280",
       "OrderDate": "Tue Jul 24 201906:30:37 GMT+0200(Eastern European Standard Time)",
       "UserId": "8573-2903-23443",
       "Products": [
@@ -919,7 +919,7 @@
       "PaymentType": "Cash"
     },
     {
-      "id": 1281,
+      "id": "1281",
       "OrderDate": "Tue Jul 24 201906:30:37 GMT+0200(Eastern European Standard Time)",
       "UserId": "8573-2903-23443",
       "Products": [
@@ -935,7 +935,7 @@
       "PaymentType": "Cash"
     },
     {
-      "id": 1282,
+      "id": "1282",
       "OrderDate": "Tue Jul 24 201906:30:37 GMT+0200(Eastern European Standard Time)",
       "UserId": "8573-2903-23443",
       "Products": [
@@ -951,7 +951,7 @@
       "PaymentType": "Cash"
     },
     {
-      "id": 1283,
+      "id": "1283",
       "OrderDate": "Tue Jul 24 201906:30:37 GMT+0200(Eastern European Standard Time)",
       "UserId": "8573-2903-23443",
       "Products": [
@@ -967,7 +967,7 @@
       "PaymentType": "Cash"
     },
     {
-      "id": 1284,
+      "id": "1284",
       "OrderDate": "Tue Jul 24 201906:30:37 GMT+0200(Eastern European Standard Time)",
       "UserId": "8573-2903-23443",
       "Products": [
@@ -983,7 +983,7 @@
       "PaymentType": "Cash"
     },
     {
-      "id": 1285,
+      "id": "1285",
       "OrderDate": "Tue Jul 24 201923:30:37 GMT+0200(Eastern European Standard Time)",
       "UserId": "8573-2903-23443",
       "Products": [
@@ -999,7 +999,7 @@
       "PaymentType": "online"
     },
     {
-      "id": 1286,
+      "id": "1286",
       "OrderDate": "Tue Jul 24 201923:30:37 GMT+0200(Eastern European Standard Time)",
       "UserId": "9179-2312-3421",
       "Products": [
@@ -1015,7 +1015,7 @@
       "PaymentType": "online"
     },
     {
-      "id": 1287,
+      "id": "1287",
       "OrderDate": "Tue Jul 24 201923:30:37 GMT+0200(Eastern European Standard Time)",
       "UserId": "9179-2312-3421",
       "Products": [
@@ -1031,7 +1031,7 @@
       "PaymentType": "online"
     },
     {
-      "id": 1288,
+      "id": "1288",
       "OrderDate": "Tue Jul 24 201923:30:37 GMT+0200(Eastern European Standard Time)",
       "UserId": "9179-2312-3421",
       "Products": [
@@ -1047,7 +1047,7 @@
       "PaymentType": "Cash"
     },
     {
-      "id": 1289,
+      "id": "1289",
       "OrderDate": "Tue Jul 24 201923:30:37 GMT+0200(Eastern European Standard Time)",
       "UserId": "9179-2312-3421",
       "Products": [
@@ -1063,7 +1063,7 @@
       "PaymentType": "Cash"
     },
     {
-      "id": 1290,
+      "id": "1290",
       "OrderDate": "Tue Jul 24 201923:30:37 GMT+0200(Eastern European Standard Time)",
       "UserId": "9179-2312-3421",
       "Products": [
@@ -1079,7 +1079,7 @@
       "PaymentType": "Cash"
     },
     {
-      "id": 1291,
+      "id": "1291",
       "OrderDate": "Tue Jul 24 201923:30:37 GMT+0200(Eastern European Standard Time)",
       "UserId": "9179-2312-3421",
       "Products": [
@@ -1095,7 +1095,7 @@
       "PaymentType": "Cash"
     },
     {
-      "id": 1292,
+      "id": "1292",
       "OrderDate": "Tue Jul 24 201923:30:37 GMT+0200(Eastern European Standard Time)",
       "UserId": "9179-2312-3421",
       "Products": [
@@ -1111,7 +1111,7 @@
       "PaymentType": "online"
     },
     {
-      "id": 1293,
+      "id": "1293",
       "OrderDate": "Tue Jul 24 201923:30:37 GMT+0200(Eastern European Standard Time)",
       "UserId": "9179-2312-3421",
       "Products": [
@@ -1127,7 +1127,7 @@
       "PaymentType": "online"
     },
     {
-      "id": 1294,
+      "id": "1294",
       "OrderDate": "Tue Jul 24 201923:30:37 GMT+0200(Eastern European Standard Time)",
       "UserId": "9179-2312-3421",
       "Products": [
@@ -1143,7 +1143,7 @@
       "PaymentType": "online"
     },
     {
-      "id": 1295,
+      "id": "1295",
       "OrderDate": "Tue Jul 24 201923:30:37 GMT+0200(Eastern European Standard Time)",
       "UserId": "9179-2312-3421",
       "Products": [
@@ -1159,7 +1159,7 @@
       "PaymentType": "online"
     },
     {
-      "id": 1296,
+      "id": "1296",
       "OrderDate": "Tue Jul 24 201923:30:37 GMT+0200(Eastern European Standard Time)",
       "UserId": "9179-2312-3421",
       "Products": [
@@ -1175,7 +1175,7 @@
       "PaymentType": "online"
     },
     {
-      "id": 1297,
+      "id": "1297",
       "OrderDate": "Tue Jul 24 201923:30:37 GMT+0200(Eastern European Standard Time)",
       "UserId": "9179-2312-3421",
       "Products": [
@@ -1191,7 +1191,7 @@
       "PaymentType": "online"
     },
     {
-      "id": 1298,
+      "id": "1298",
       "OrderDate": "Tue Jul 24 201923:30:37 GMT+0200(Eastern European Standard Time)",
       "UserId": "9179-2312-3421",
       "Products": [
@@ -1207,7 +1207,7 @@
       "PaymentType": "Cash"
     },
     {
-      "id": 1299,
+      "id": "1299",
       "OrderDate": "Tue Jul 24 201923:30:37 GMT+0200(Eastern European Standard Time)",
       "UserId": "9179-2312-3421",
       "Products": [
@@ -1223,7 +1223,7 @@
       "PaymentType": "Cash"
     },
     {
-      "id": 1300,
+      "id": "1300",
       "OrderDate": "Wed Jul 25 201923:30:37 GMT+0200(Eastern European Standard Time)",
       "UserId": "8475-2345-2312",
       "Products": [
@@ -1239,7 +1239,7 @@
       "PaymentType": "Cash"
     },
     {
-      "id": 1301,
+      "id": "1301",
       "OrderDate": "Wed Jul 25 201923:30:37 GMT+0200(Eastern European Standard Time)",
       "UserId": "8475-2345-2312",
       "Products": [
@@ -1255,7 +1255,7 @@
       "PaymentType": "Cash"
     },
     {
-      "id": 1302,
+      "id": "1302",
       "OrderDate": "Wed Jul 25 201923:30:37 GMT+0200(Eastern European Standard Time)",
       "UserId": "8475-2345-2312",
       "Products": [
@@ -1271,7 +1271,7 @@
       "PaymentType": "Cash"
     },
     {
-      "id": 1303,
+      "id": "1303",
       "OrderDate": "Wed Jul 25 201923:30:37 GMT+0200(Eastern European Standard Time)",
       "UserId": "8475-2345-2312",
       "Products": [
@@ -1287,7 +1287,7 @@
       "PaymentType": "online"
     },
     {
-      "id": 1304,
+      "id": "1304",
       "OrderDate": "Wed Jul 25 201901:55:37 GMT+0200(Eastern European Standard Time)",
       "UserId": "8475-2345-2312",
       "Products": [
@@ -1303,7 +1303,7 @@
       "PaymentType": "online"
     },
     {
-      "id": 1305,
+      "id": "1305",
       "OrderDate": "Wed Jul 25 201915:30:37 GMT+0200(Eastern European Standard Time)",
       "UserId": "8475-2345-2312",
       "Products": [
@@ -1319,7 +1319,7 @@
       "PaymentType": "online"
     },
     {
-      "id": 1306,
+      "id": "1306",
       "OrderDate": "Wed Jul 25 201915:30:37 GMT+0200(Eastern European Standard Time)",
       "UserId": "8475-2345-2312",
       "Products": [
@@ -1335,7 +1335,7 @@
       "PaymentType": "online"
     },
     {
-      "id": 1307,
+      "id": "1307",
       "OrderDate": "Wed Jul 25 201915:30:37 GMT+0200(Eastern European Standard Time)",
       "UserId": "8475-2345-2312",
       "Products": [
@@ -1351,7 +1351,7 @@
       "PaymentType": "online"
     },
     {
-      "id": 1308,
+      "id": "1308",
       "OrderDate": "Wed Jul 25 201915:30:37 GMT+0200(Eastern European Standard Time)",
       "UserId": "8475-2345-2312",
       "Products": [
@@ -1367,7 +1367,7 @@
       "PaymentType": "online"
     },
     {
-      "id": 1309,
+      "id": "1309",
       "OrderDate": "Wed Jul 25 201915:30:37 GMT+0200(Eastern European Standard Time)",
       "UserId": "8475-2345-2312",
       "Products": [
@@ -1383,7 +1383,7 @@
       "PaymentType": "online"
     },
     {
-      "id": 1310,
+      "id": "1310",
       "OrderDate": "Wed Jul 25 201915:30:37 GMT+0200(Eastern European Standard Time)",
       "UserId": "8475-2345-2312",
       "Products": [
@@ -1399,7 +1399,7 @@
       "PaymentType": "online"
     },
     {
-      "id": 1311,
+      "id": "1311",
       "OrderDate": "Wed Jul 25 201915:30:37 GMT+0200(Eastern European Standard Time)",
       "UserId": "8475-2345-2312",
       "Products": [
@@ -1415,7 +1415,7 @@
       "PaymentType": "Cash"
     },
     {
-      "id": 1312,
+      "id": "1312",
       "OrderDate": "Wed Jul 25 201915:30:37 GMT+0200(Eastern European Standard Time)",
       "UserId": "8475-2345-2312",
       "Products": [
@@ -1431,7 +1431,7 @@
       "PaymentType": "Cash"
     },
     {
-      "id": 1313,
+      "id": "1313",
       "OrderDate": "Wed Jul 25 201915:30:37 GMT+0200(Eastern European Standard Time)",
       "UserId": "8475-2345-2312",
       "Products": [
@@ -1447,7 +1447,7 @@
       "PaymentType": "Cash"
     },
     {
-      "id": 1314,
+      "id": "1314",
       "OrderDate": "Wed Jul 25 201915:30:37 GMT+0200(Eastern European Standard Time)",
       "UserId": "8475-2345-2312",
       "Products": [
@@ -1463,7 +1463,7 @@
       "PaymentType": "Cash"
     },
     {
-      "id": 1315,
+      "id": "1315",
       "OrderDate": "Wed Jul 25 201915:30:37 GMT+0200(Eastern European Standard Time)",
       "UserId": "8475-2345-2312",
       "Products": [
@@ -1479,7 +1479,7 @@
       "PaymentType": "Cash"
     },
     {
-      "id": 1316,
+      "id": "1316",
       "OrderDate": "Wed Jul 25 201915:30:37 GMT+0200(Eastern European Standard Time)",
       "UserId": "8475-2345-2312",
       "Products": [
@@ -1495,7 +1495,7 @@
       "PaymentType": "Cash"
     },
     {
-      "id": 1317,
+      "id": "1317",
       "OrderDate": "Thu Jul 26 201915:30:37 GMT+0200(Eastern European Standard Time)",
       "UserId": "8475-2345-2312",
       "Products": [
@@ -1511,7 +1511,7 @@
       "PaymentType": "online"
     },
     {
-      "id": 1318,
+      "id": "1318",
       "OrderDate": "Thu Jul 26 201915:30:37 GMT+0200(Eastern European Standard Time)",
       "UserId": "8475-2345-2312",
       "Products": [
@@ -1527,7 +1527,7 @@
       "PaymentType": "Cash"
     },
     {
-      "id": 1319,
+      "id": "1319",
       "OrderDate": "Thu Jul 26 201915:30:37 GMT+0200(Eastern European Standard Time)",
       "UserId": "8475-2345-2312",
       "Products": [
@@ -1543,7 +1543,7 @@
       "PaymentType": "Cash"
     },
     {
-      "id": 1320,
+      "id": "1320",
       "OrderDate": "Thu Jul 26 201915:30:37 GMT+0200(Eastern European Standard Time)",
       "UserId": "2343-1233-4323",
       "Products": [
@@ -1559,7 +1559,7 @@
       "PaymentType": "Cash"
     },
     {
-      "id": 1321,
+      "id": "1321",
       "OrderDate": "Thu Jul 26 201915:30:37 GMT+0200(Eastern European Standard Time)",
       "UserId": "2343-1233-4323",
       "Products": [
@@ -1575,7 +1575,7 @@
       "PaymentType": "online"
     },
     {
-      "id": 1322,
+      "id": "1322",
       "OrderDate": "Thu Jul 26 201915:30:37 GMT+0200(Eastern European Standard Time)",
       "UserId": "2343-1233-4323",
       "Products": [
@@ -1591,7 +1591,7 @@
       "PaymentType": "Cash"
     },
     {
-      "id": 1323,
+      "id": "1323",
       "OrderDate": "Thu Jul 26 201915:30:37 GMT+0200(Eastern European Standard Time)",
       "UserId": "2343-1233-4323",
       "Products": [
@@ -1607,7 +1607,7 @@
       "PaymentType": "Cash"
     },
     {
-      "id": 1324,
+      "id": "1324",
       "OrderDate": "Thu Jul 26 201915:30:37 GMT+0200(Eastern European Standard Time)",
       "UserId": "2343-1233-4323",
       "Products": [
@@ -1623,7 +1623,7 @@
       "PaymentType": "Cash"
     },
     {
-      "id": 1325,
+      "id": "1325",
       "OrderDate": "Thu Jul 26 201915:30:37 GMT+0200(Eastern European Standard Time)",
       "UserId": "2343-1233-4323",
       "Products": [
@@ -1639,7 +1639,7 @@
       "PaymentType": "Cash"
     },
     {
-      "id": 1326,
+      "id": "1326",
       "OrderDate": "Thu Jul 26 201918:30:37 GMT+0200(Eastern European Standard Time)",
       "UserId": "2343-1233-4323",
       "Products": [
@@ -1655,7 +1655,7 @@
       "PaymentType": "online"
     },
     {
-      "id": 1327,
+      "id": "1327",
       "OrderDate": "Thu Jul 26 201918:30:37 GMT+0200(Eastern European Standard Time)",
       "UserId": "2343-1233-4323",
       "Products": [
@@ -1671,7 +1671,7 @@
       "PaymentType": "Cash"
     },
     {
-      "id": 1328,
+      "id": "1328",
       "OrderDate": "Thu Jul 26 201918:30:37 GMT+0200(Eastern European Standard Time)",
       "UserId": "2343-1233-4323",
       "Products": [
@@ -1687,7 +1687,7 @@
       "PaymentType": "Cash"
     },
     {
-      "id": 1329,
+      "id": "1329",
       "OrderDate": "Thu Jul 26 201918:30:37 GMT+0200(Eastern European Standard Time)",
       "UserId": "2343-1233-4323",
       "Products": [
@@ -1703,7 +1703,7 @@
       "PaymentType": "Cash"
     },
     {
-      "id": 1330,
+      "id": "1330",
       "OrderDate": "Thu Jul 26 201918:30:37 GMT+0200(Eastern European Standard Time)",
       "UserId": "2343-1233-4323",
       "Products": [
@@ -1719,7 +1719,7 @@
       "PaymentType": "Cash"
     },
     {
-      "id": 1331,
+      "id": "1331",
       "OrderDate": "Thu Jul 26 201918:30:37 GMT+0200(Eastern European Standard Time)",
       "UserId": "2343-1233-4323",
       "Products": [
@@ -1735,7 +1735,7 @@
       "PaymentType": "online"
     },
     {
-      "id": 1332,
+      "id": "1332",
       "OrderDate": "Thu Jul 26 201918:30:37 GMT+0200(Eastern European Standard Time)",
       "UserId": "2343-1233-4323",
       "Products": [
@@ -1751,7 +1751,7 @@
       "PaymentType": "online"
     },
     {
-      "id": 1333,
+      "id": "1333",
       "OrderDate": "Thu Jul 26 201918:30:37 GMT+0200(Eastern European Standard Time)",
       "UserId": "1231-1244-1233",
       "Products": [
@@ -1767,7 +1767,7 @@
       "PaymentType": "online"
     },
     {
-      "id": 1334,
+      "id": "1334",
       "OrderDate": "Thu Jul 26 201918:30:37 GMT+0200(Eastern European Standard Time)",
       "UserId": "1231-1244-1233",
       "Products": [
@@ -1783,7 +1783,7 @@
       "PaymentType": "online"
     },
     {
-      "id": 1335,
+      "id": "1335",
       "OrderDate": "Fri Jul 27 201918:30:37 GMT+0200(Eastern European Standard Time)",
       "UserId": "1231-1244-1233",
       "Products": [
@@ -1799,7 +1799,7 @@
       "PaymentType": "online"
     },
     {
-      "id": 1336,
+      "id": "1336",
       "OrderDate": "Fri Jul 27 201918:30:37 GMT+0200(Eastern European Standard Time)",
       "UserId": "1231-1244-1233",
       "Products": [
@@ -1815,7 +1815,7 @@
       "PaymentType": "Cash"
     },
     {
-      "id": 1337,
+      "id": "1337",
       "OrderDate": "Fri Jul 27 201918:30:37 GMT+0200(Eastern European Standard Time)",
       "UserId": "1231-1244-1233",
       "Products": [
@@ -1831,7 +1831,7 @@
       "PaymentType": "Cash"
     },
     {
-      "id": 1338,
+      "id": "1338",
       "OrderDate": "Fri Jul 27 201918:30:37 GMT+0200(Eastern European Standard Time)",
       "UserId": "1231-1244-1233",
       "Products": [
@@ -1847,7 +1847,7 @@
       "PaymentType": "Cash"
     },
     {
-      "id": 1339,
+      "id": "1339",
       "OrderDate": "Fri Jul 27 201918:30:37 GMT+0200(Eastern European Standard Time)",
       "UserId": "1231-1244-1233",
       "Products": [
@@ -1863,7 +1863,7 @@
       "PaymentType": "Cash"
     },
     {
-      "id": 1400,
+      "id": "1400",
       "OrderDate": "Fri Jul 27 201918:30:37 GMT+0200(Eastern European Standard Time)",
       "UserId": "1231-1244-1233",
       "Products": [
@@ -1879,7 +1879,7 @@
       "PaymentType": "Cash"
     },
     {
-      "id": 1401,
+      "id": "1401",
       "OrderDate": "Fri Jul 27 201918:30:37 GMT+0200(Eastern European Standard Time)",
       "UserId": "1231-1244-1233",
       "Products": [
@@ -1895,7 +1895,7 @@
       "PaymentType": "Cash"
     },
     {
-      "id": 1402,
+      "id": "1402",
       "OrderDate": "Fri Jul 27 201918:30:37 GMT+0200(Eastern European Standard Time)",
       "UserId": "1231-1244-1233",
       "Products": [
@@ -1911,7 +1911,7 @@
       "PaymentType": "Cash"
     },
     {
-      "id": 1403,
+      "id": "1403",
       "OrderDate": "Fri Jul 27 201918:30:37 GMT+0200(Eastern European Standard Time)",
       "UserId": "1231-1244-1233",
       "Products": [
@@ -1927,7 +1927,7 @@
       "PaymentType": "Cash"
     },
     {
-      "id": 1404,
+      "id": "1404",
       "OrderDate": "Fri Jul 27 201918:30:37 GMT+0200(Eastern European Standard Time)",
       "UserId": "1231-1244-1233",
       "Products": [
@@ -1943,7 +1943,7 @@
       "PaymentType": "online"
     },
     {
-      "id": 1405,
+      "id": "1405",
       "OrderDate": "Fri Jul 27 201918:30:37 GMT+0200(Eastern European Standard Time)",
       "UserId": "1231-1244-1233",
       "Products": [
@@ -1959,7 +1959,7 @@
       "PaymentType": "online"
     },
     {
-      "id": 1406,
+      "id": "1406",
       "OrderDate": "Fri Jul 27 201918:30:37 GMT+0200(Eastern European Standard Time)",
       "UserId": "9179-2312-3421",
       "Products": [
@@ -1975,7 +1975,7 @@
       "PaymentType": "online"
     },
     {
-      "id": 1407,
+      "id": "1407",
       "OrderDate": "Fri Jul 27 201918:30:37 GMT+0200(Eastern European Standard Time)",
       "UserId": "9179-2312-3421",
       "Products": [
@@ -1991,7 +1991,7 @@
       "PaymentType": "online"
     },
     {
-      "id": 1408,
+      "id": "1408",
       "OrderDate": "Fri Jul 27 201918:30:37 GMT+0200(Eastern European Standard Time)",
       "UserId": "9179-2312-3421",
       "Products": [
@@ -2007,7 +2007,7 @@
       "PaymentType": "online"
     },
     {
-      "id": 1409,
+      "id": "1409",
       "OrderDate": "Fri Jul 27 201918:30:37 GMT+0200(Eastern European Standard Time)",
       "UserId": "9179-2312-3421",
       "Products": [
@@ -2023,7 +2023,7 @@
       "PaymentType": "online"
     },
     {
-      "id": 1410,
+      "id": "1410",
       "OrderDate": "Sun Jul 22 2019 06:55:37 GMT+0200(Eastern European Standard Time)",
       "UserId": "9179-2312-3421",
       "Products": [
@@ -2039,7 +2039,7 @@
       "PaymentType": "online"
     },
     {
-      "id": 1411,
+      "id": "1411",
       "OrderDate": "Sun Jul 22 2019 18:30:37 GMT+0200(Eastern European Standard Time)",
       "UserId": "9179-2312-3421",
       "Products": [
@@ -2055,7 +2055,7 @@
       "PaymentType": "online"
     },
     {
-      "id": 1412,
+      "id": "1412",
       "OrderDate": "Sat Jul 21 2019 18:30:37 GMT+0200(Eastern European Standard Time)",
       "UserId": "9179-2312-3421",
       "Products": [
@@ -2071,7 +2071,7 @@
       "PaymentType": "Cash"
     },
     {
-      "id": 1413,
+      "id": "1413",
       "OrderDate": "Sat Jul 21 2019 01:00:37 GMT+0200(Eastern European Standard Time)",
       "UserId": "9179-2312-3421",
       "Products": [
@@ -2087,7 +2087,7 @@
       "PaymentType": "Cash"
     },
     {
-      "id": 1414,
+      "id": "1414",
       "OrderDate": "Sat Jul 21 2019 01:55:37 GMT+0200(Eastern European Standard Time)",
       "UserId": "9179-2312-3421",
       "Products": [
@@ -2101,12 +2101,54 @@
         }
       ],
       "PaymentType": "Cash"
+    },
+    {
+      "id": 1730057748110,
+      "OrderDate": "Sun Oct 27 2024 22:35:48 GMT+0300 (Eastern European Summer Time)",
+      "UserId": "8573-2903-2344",
+      "Products": [
+        {
+          "ProductId": "123",
+          "Quantity": 11
+        }
+      ],
+      "PaymentType": {
+        "name": "Online",
+        "value": "online"
+      }
+    },
+    {
+      "id": 1730058560778,
+      "OrderDate": "2024-10-27T19:49:20.778Z",
+      "UserId": "",
+      "Products": [
+        {
+          "ProductId": "125",
+          "Quantity": 3
+        }
+      ],
+      "PaymentType": {
+        "name": "Online",
+        "value": "online"
+      }
+    },
+    {
+      "id": 1730058936551,
+      "OrderDate": "2024-10-27T19:55:36.551Z",
+      "UserId": "",
+      "Products": [
+        {
+          "ProductId": "125",
+          "Quantity": 1
+        }
+      ],
+      "PaymentType": "online"
     }
   ],
   "users": [
     {
       "id": "1231-1244-1233",
-      "Name": "Mohamed Ashraf",
+      "name": "Mohamed Ashraf",
       "Email": "Mohamed.Ashraf@Gmail.com",
       "Phone": "01144558866",
       "Address": "55 Mohammed Mostafa El Sayed, An Nadi Al Ahli, Nasr City, Cairo Governorate",
@@ -2114,7 +2156,7 @@
     },
     {
       "id": "8573-2903-2344",
-      "Name": "Ahmed Hossam",
+      "name": "Ahmed Hossam",
       "Email": "Ahmed.Hossam@gmail.com",
       "Phone": "01025458780",
       "Address": "234 Al Abageyah, Qesm Al Khalifah, Cairo Governorate",
@@ -2122,7 +2164,7 @@
     },
     {
       "id": "8475-2345-2312",
-      "Name": "Hassan Mostafa Ahmed",
+      "name": "Hassan Mostafa Ahmed",
       "Email": "HassanMostafa@gmail.com",
       "Phone": "01235698458",
       "Address": "1 Al Teraa, El-Masara El-Balad, Helwan, Cairo Governorate",
@@ -2130,7 +2172,7 @@
     },
     {
       "id": "9843-2345-2345",
-      "Name": "Abd El-Rahman Ahmed Abd El-Aleem",
+      "name": "Abd El-Rahman Ahmed Abd El-Aleem",
       "Email": "AbdoAhmed@hotmail.com",
       "Phone": "01125452545",
       "Address": "25 Street 214, Maadi as Sarayat Al Gharbeyah, Maadi, Cairo Governorate",
@@ -2138,7 +2180,7 @@
     },
     {
       "id": "5432-3425-1234",
-      "Name": "Hossam Ramadan",
+      "name": "Hossam Ramadan",
       "Email": "HossamRamadan2010@live.com",
       "Phone": "01025485522",
       "Address": "236A Al Labeini, Al Haraneyah, Giza District, Giza Governorate",
@@ -2146,7 +2188,7 @@
     },
     {
       "id": "9179-2312-3421",
-      "Name": "Hoda Ahmed",
+      "name": "Hoda Ahmed",
       "Email": "HodaHoda2020@gmail.com",
       "Phone": "01256633333",
       "Address": "25 Street 214, Maadi as Sarayat Al Gharbeyah, Maadi, Cairo Governorate",
@@ -2154,7 +2196,7 @@
     },
     {
       "id": "2343-1233-4323",
-      "Name": "Nada Hossam Ahmed",
+      "name": "Nada Hossam Ahmed",
       "Email": "NadaAhmed2222@gmail.com",
       "Phone": "01223655892",
       "Address": "111, District 7, Neighborhood 1, Floor 7, El sheikh zayed, Giza Governorate 12577",
@@ -2162,7 +2204,7 @@
     },
     {
       "id": "1223-1223-1231",
-      "Name": "John Emad Peter",
+      "name": "John Emad Peter",
       "Email": "JohnP2011@gmail.com",
       "Phone": "01566445588",
       "Address": "88 10 Ramadan, Ezbet Saad, Sidi Gaber, Alexandria Governorate",
@@ -2170,7 +2212,7 @@
     },
     {
       "id": "3123-3242-1231",
-      "Name": "John Emad Peter",
+      "name": "John Emad Peter",
       "Email": "JohnP2011@gmail.com",
       "Phone": "01002235544",
       "Address": "125 Z, Hadayek Al Ahram, Haram, Giza Governorate",
