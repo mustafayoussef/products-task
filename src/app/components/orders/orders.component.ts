@@ -1,7 +1,6 @@
-import { CommonModule, DecimalPipe } from '@angular/common';
+import { CommonModule } from '@angular/common';
 import { Component, computed, signal } from '@angular/core';
 import { Router, RouterLink } from '@angular/router';
-import { ButtonModule } from 'primeng/button';
 import { TableModule } from 'primeng/table';
 import { Order } from '../../core/models/order.model';
 import { Product } from '../../core/models/product.model';
@@ -11,7 +10,7 @@ import { ProductService } from '../../core/services/product.service';
 @Component({
   selector: 'app-orders',
   standalone: true,
-  imports: [CommonModule, RouterLink, ButtonModule, TableModule, DecimalPipe],
+  imports: [CommonModule, RouterLink, TableModule],
   templateUrl: './orders.component.html',
   styleUrl: './orders.component.scss',
 })

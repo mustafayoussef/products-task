@@ -20,9 +20,7 @@ export class ProductsComponent {
   constructor(private productService: ProductService) {}
 
   ngOnInit(): void {
-    this.productService.getProduct().subscribe((data: Product[]) => {
-      this.loadProducts();
-    });
+    this.loadProducts();
   }
 
   private loadProducts(): void {

@@ -1,7 +1,6 @@
 import { Component, signal } from '@angular/core';
 import { FormsModule } from '@angular/forms';
 import { Router } from '@angular/router';
-import { ButtonModule } from 'primeng/button';
 import { DropdownModule } from 'primeng/dropdown';
 import { InputNumberModule } from 'primeng/inputnumber';
 import { MultiSelectModule } from 'primeng/multiselect';
@@ -20,7 +19,6 @@ import { UserService } from '../../core/services/user.service';
     FormsModule,
     DropdownModule,
     MultiSelectModule,
-    ButtonModule,
     TableModule,
     InputNumberModule,
   ],
@@ -47,6 +45,9 @@ export class AddOrderComponent {
   ngOnInit(): void {
     this.loadUsers();
     this.loadProducts();
+    this.orderService.addOrder$.subscribe(() => {
+      this.addOrder();
+    });
   }
 
 

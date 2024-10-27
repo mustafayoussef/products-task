@@ -4,7 +4,7 @@
       "id": "123",
       "ProductName": "Product 1",
       "ProductPrice": 123.5,
-      "AvailablePieces": 22,
+      "AvailablePieces": 19,
       "ProductImg": "https://www.decolore.net/wp-content/uploads/2017/04/product-mock-up-set-2.jpg"
     },
     {
@@ -2103,7 +2103,7 @@
       "PaymentType": "Cash"
     },
     {
-      "id": 1730057748110,
+      "id": "1730057748110",
       "OrderDate": "Sun Oct 27 2024 22:35:48 GMT+0300 (Eastern European Summer Time)",
       "UserId": "8573-2903-2344",
       "Products": [
@@ -2118,7 +2118,7 @@
       }
     },
     {
-      "id": 1730058560778,
+      "id": "1730058560778",
       "OrderDate": "2024-10-27T19:49:20.778Z",
       "UserId": "",
       "Products": [
@@ -2133,7 +2133,7 @@
       }
     },
     {
-      "id": 1730058936551,
+      "id": "1730058936551",
       "OrderDate": "2024-10-27T19:55:36.551Z",
       "UserId": "",
       "Products": [
@@ -2143,6 +2143,37 @@
         }
       ],
       "PaymentType": "online"
+    },
+    {
+      "id": 1730066354814,
+      "OrderDate": "2024-10-27T21:59:14.814Z",
+      "UserId": "",
+      "Products": [
+        {
+          "ProductId": "123",
+          "Quantity": 2
+        }
+      ],
+      "PaymentType": "cash"
+    },
+    {
+      "id": 1730067641410,
+      "OrderDate": "2024-10-27T22:20:41.410Z",
+      "UserId": "",
+      "Products": [],
+      "PaymentType": "cash"
+    },
+    {
+      "id": 1730067641413,
+      "OrderDate": "2024-10-27T22:20:41.413Z",
+      "UserId": "",
+      "Products": [
+        {
+          "ProductId": "123",
+          "Quantity": 1
+        }
+      ],
+      "PaymentType": "cash"
     }
   ],
   "users": [

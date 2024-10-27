@@ -29,7 +29,6 @@
           <th>Product ID</th>
           <th>Product Name</th>
           <th>Quantity</th>
-          <th>Total</th>
         </tr>
       </ng-template>
       <ng-template pTemplate="body" let-product let-columns="columns">
@@ -56,11 +55,8 @@
               (ngModelChange)="onQuantityChange(product.id, $event)"
             />
           </td>
-          <td></td>
         </tr>
       </ng-template>
     </p-table>
   </div>
 </div>
-<p-button class="create-order-btn" (click)="addOrder()" label="Create Order" />
-
