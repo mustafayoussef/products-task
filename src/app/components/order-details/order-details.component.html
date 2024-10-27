@@ -1,18 +1,21 @@
-<h1>Order Details</h1>
-@if (user) {
-<p>Customer Name: {{ user.Name }}</p>
-}
-@if (order) {
 
-<p>Payment Method: {{ order.PaymentType }}</p>
-<h3>Products:</h3>
-<ul>
-  @for (product of order.Products; track $index) {
-  <li>
-    <img [src]="product.ProductImg" alt="{{ product.ProductName }}" width="50">
-    <p>Product Name: {{ product.ProductName }}</p>
-    Product ID: {{ product.ProductId }} - Quantity: {{ product.Quantity }}
-  </li>
-  }
-</ul>
+@if (order && user) {
+
+<div class="cards-container">
+  <div class="cards">
+    @for (product of order.Products; track $index) {
+    <p-card
+      [header]="product.ProductName"
+      [subheader]="user.Name"
+      [style]="{ width: '360px' }"
+    >
+      <ng-template pTemplate="header">
+        <img alt="Card" [src]="product.ProductImg" />
+      </ng-template>
+      <p>ID: {{ product.ProductId }}</p>
+      <p>Quantity: {{ product.Quantity }}</p>
+    </p-card>
+    }
+  </div>
+</div>
 }

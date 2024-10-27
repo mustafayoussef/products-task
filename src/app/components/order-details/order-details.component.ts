@@ -1,21 +1,22 @@
 import { Component } from '@angular/core';
-import { Order } from '../../core/models/order.model';
-import { OrderService } from '../../core/services/order.service';
 import { ActivatedRoute } from '@angular/router';
-import { UserService } from '../../core/services/user.service';
-import { User } from '../../core/models/user.model';
+import { CardModule } from 'primeng/card';
+import { Order } from '../../core/models/order.model';
 import { Product } from '../../core/models/product.model';
+import { User } from '../../core/models/user.model';
+import { OrderService } from '../../core/services/order.service';
 import { ProductService } from '../../core/services/product.service';
+import { UserService } from '../../core/services/user.service';
 
 @Component({
   selector: 'app-order-details',
   standalone: true,
-  imports: [],
+  imports: [CardModule],
   templateUrl: './order-details.component.html',
   styleUrl: './order-details.component.scss',
 })
 export class OrderDetailsComponent {
-  order!: Order;
+  order!: Order | any;
   user!: User;
   products: Product[] = [];
 
@@ -49,10 +50,7 @@ export class OrderDetailsComponent {
   }
 
   private mapProductDetails(): void {
-    this.order.Products.forEach((orderProduct) => {
-      console.log('this.products', this.products);
-      console.log('orderProduct', orderProduct.ProductId);
-
+    this.order.Products.forEach((orderProduct: any) => {
       const productDetails = this.products.find(
         (p) => p.id == orderProduct.ProductId
       );

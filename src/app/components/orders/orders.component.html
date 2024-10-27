@@ -1,9 +1,36 @@
 <div class="orders">
-  <h2>Orders List</h2>
-  <ul>
-    @for (order of orders; track $index) {
-      <li>Order #{{ order.id }} - Total: {{ order.totalPrice }} - Payment Method: {{ order.PaymentType }}</li>
-      <a [routerLink]="['/order-details', order.id]">View Details</a>
-    }
-  </ul>
+  <p-button [routerLink]="['/add-order']" label="Create Order" />
+</div>
+<div class="orders">
+  <div class="orders_table">
+    <p-table [value]="totalPrice()" [tableStyle]="{ 'min-width': '50rem' }">
+      <ng-template pTemplate="header" let-columns>
+        <tr>
+          <th>Order ID</th>
+          <th>Total</th>
+          <th>Payment Method</th>
+          <th>Action</th>
+        </tr>
+      </ng-template>
+      <ng-template pTemplate="body" let-order let-columns="columns">
+        <tr>
+          <td>
+            {{ order.id }}
+          </td>
+          <td>
+            {{ order.totalPrice | currency }}
+          </td>
+          <td>
+            {{ order.PaymentType.value  || order.PaymentType }}
+          </td>
+          <td>
+            <p-button
+              [routerLink]="['/order-details', order.id]"
+              label="View Details"
+            />
+          </td>
+        </tr>
+      </ng-template>
+    </p-table>
+  </div>
 </div>

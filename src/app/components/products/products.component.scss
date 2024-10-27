@@ -1,9 +1,17 @@
-ul {
-  list-style-type: none;
-  padding: 0;
+.products {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+
+  &_table {
+    width: 80vw;
+    margin-top: 3rem;
+  }
 }
 
-.low-stock {
-  color: red;
-  font-weight: bold;
+::ng-deep input#withoutgrouping {
+  height: 35px;
+  width: 80px;
 }

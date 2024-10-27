@@ -7,7 +7,6 @@ import { Order } from '../models/order.model';
   providedIn: 'root'
 })
 export class OrderService {
-  // private ordersUrl = 'data/orders.json';
   private ordersUrl = 'http://localhost:3000/orders';
 
   constructor(private http: HttpClient) { }
@@ -21,7 +20,6 @@ export class OrderService {
   }
 
   addOrder(order: Order): Observable<Order> {
-    // This should be updated to use an actual API endpoint if available
     return this.http.post<Order>(this.ordersUrl, order);
   }
 }

@@ -1,0 +1,12 @@
+.orders {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+
+  &_table {
+    width: 80vw;
+    margin-top: 3rem;
+  }
+}
